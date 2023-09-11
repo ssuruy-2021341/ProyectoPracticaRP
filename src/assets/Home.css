@@ -1,0 +1,78 @@
+.body {
+    background: linear-gradient(45deg, #a24ad4 25%, #3a97a3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #007acc;
+    color: rgb(104, 104, 104);
+    text-align: center;
+    padding: 20px;
+    border: solid #333 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border: solid #333 1px;
+    animation: backgroundChange 5s infinite alternate;
+    background: linear-gradient(45deg, #eff2f5, #1dc7dd, #069b8e, #02e1ff);
+    background-size: 400% 400%;
+}
+
+@keyframes backgroundChange {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+
+.header h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+}
+
+.header p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.pokemon-list {
+    margin-top: 10px;
+}
+
+.poke-api-button {
+    background-color: #2abce0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.poke-api-button:hover {
+    background-color: #2fb2d3;
+}

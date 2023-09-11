@@ -1,0 +1,106 @@
+/* Estilo para el contenedor de la cuadrícula */
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.pokemon-card {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 140px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.pokemon-card img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pokemon-card p {
+    font-weight: bold;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+
+.pokemon-types {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.type {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.type.grass {
+    background-color: #78c850;
+    color: #fff;
+}
+
+.type.fire {
+    background-color: #f08030;
+    color: #fff;
+}
+
+
+.type.poison {
+    background-color: #aa3587;
+    color: #fff;
+}
+
+.type.water {
+    background-color: #355eaa;
+    color: #fff;
+}
+
+.type.bug {
+    background-color: #35aa3f;
+    color: #fff;
+}
+
+
+.type.fairy {
+    background-color: #faef92;
+    color: rgb(77, 77, 77)
+}
+
+.type.normal {
+    background-color: #a7a7a7;
+    color: rgb(77, 77, 77)
+}
+
+.type.flying {
+    background-color: #7edaca;
+    color: rgb(77, 77, 77)
+}
+
+
+.type.ground {
+    background-color: #913c4a;
+    color: rgb(255, 255, 255)
+}
+
+.type.electric {
+    background-color: #fbff00;
+    color: rgb(0, 0, 0)
+}
